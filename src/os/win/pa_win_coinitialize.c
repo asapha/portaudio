@@ -76,11 +76,8 @@ PaError PaWinUtil_CoInitialize( PaHostApiTypeId hostApiType, PaWinUtilComInitial
         RPC_E_CHANGED_MODE was returned.
     */
 
-#if !defined(WINAPI_FAMILY) || (WINAPI_FAMILY != WINAPI_FAMILY_APP)
-    hr = CoInitialize(0); /* use legacy-safe equivalent to CoInitializeEx(NULL, COINIT_APARTMENTTHREADED) */
-#else
-    hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
-#endif
+    hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);
+
     if( FAILED(hr) && hr != RPC_E_CHANGED_MODE )
     {
         PA_DEBUG(("CoInitialize(0) failed. hr=%d\n", hr));
