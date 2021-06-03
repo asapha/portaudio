@@ -50,3 +50,12 @@ out/
 
 # Visual Studio CMake settings file
 CMakeSettings.json
+
+.idea/
+src/hostapi/asio/asiosdk/
+cmake-build-debug/
+
+# VS
+build/msvc/Win32/
+build/msvc/x64/
+*.vcxproj.user
