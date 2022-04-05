@@ -78,18 +78,6 @@
     <ClCompile Include="..\..\src\common\pa_trace.c">
       <Filter>Source Files\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\pa_asio.cpp">
-      <Filter>Source Files\hostapi\ASIO</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\ASIOSDK\common\asio.cpp">
-      <Filter>Source Files\hostapi\ASIO\ASIOSDK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\ASIOSDK\host\asiodrivers.cpp">
-      <Filter>Source Files\hostapi\ASIO\ASIOSDK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\ASIOSDK\host\pc\asiolist.cpp">
-      <Filter>Source Files\hostapi\ASIO\ASIOSDK</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds.c">
       <Filter>Source Files\hostapi\dsound</Filter>
     </ClCompile>

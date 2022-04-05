@@ -393,38 +393,6 @@
     <ClCompile Include="..\..\src\common\pa_ringbuffer.c" />
     <ClCompile Include="..\..\src\common\pa_stream.c" />
     <ClCompile Include="..\..\src\common\pa_trace.c" />
-    <ClCompile Include="..\..\src\hostapi\asio\ASIOSDK\common\asio.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\ASIOSDK\host\asiodrivers.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\ASIOSDK\host\pc\asiolist.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\src\hostapi\asio\pa_asio.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='ReleaseMinDependency|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\src\hostapi\asio\ASIOSDK\host;..\..\src\hostapi\asio\ASIOSDK\host\pc;..\..\src\hostapi\asio\ASIOSDK\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds.c" />
     <ClCompile Include="..\..\src\hostapi\dsound\pa_win_ds_dynlink.c" />
     <ClCompile Include="..\..\src\hostapi\skeleton\pa_hostapi_skeleton.c" />

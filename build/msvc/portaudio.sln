@@ -23,8 +23,8 @@ Global
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|Win32.Build.0 = Release|Win32
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|x64.ActiveCfg = Release|x64
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|x64.Build.0 = Release|x64
-		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|Win32.ActiveCfg = ReleaseMinDependency|Win32
-		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|Win32.Build.0 = ReleaseMinDependency|Win32
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|Win32.ActiveCfg = ReleaseMinDependency|x64
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|Win32.Build.0 = ReleaseMinDependency|x64
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|x64.ActiveCfg = ReleaseMinDependency|x64
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|x64.Build.0 = ReleaseMinDependency|x64
 	EndGlobalSection
